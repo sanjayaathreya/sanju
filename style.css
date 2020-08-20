@@ -1,0 +1,45 @@
+header{
+    display: flex;
+    justify-content: center;
+    background-color: orange;
+    height: 90px;
+    margin: 5px;
+  }
+   nav{
+
+    display: flex;
+    justify-content: flex-start;
+    background-color: blue;
+    height: 500px;
+    width: 800px;
+    margin: 5px;
+
+  }
+  div{
+      display: flex;
+  }
+  aside{
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    background-color: blue;
+    width: 800px;
+    margin: 5px;
+  }
+  article{
+
+    margin: auto;
+    display: flex;
+    
+    flex-direction: column;
+    height: 500px;
+    background-color: grey;
+  }
+  footer{
+    display: flex;
+    justify-content: center;
+    background-color: orange;
+    height: 90px;
+    margin: 5px;
+
+  }
